@@ -1,5 +1,11 @@
 {
   "name": "3kbest/ratchet",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/3kbest/rfc6455.git"
+    }
+  ],
   "type": "library",
   "description": "PHP WebSocket library",
   "keywords": [
@@ -31,12 +37,6 @@
       "Ratchet\\": "src/Ratchet"
     }
   },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/3kbest/rfc6455.git"
-    }
-  ],
   "require": {
     "php": ">=8.0",
     "3kbest/rfc6455": "^0.3",
