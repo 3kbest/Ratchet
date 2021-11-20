@@ -26,17 +26,17 @@
     "issues": "https://github.com/ratchetphp/Ratchet/issues",
     "chat": "https://gitter.im/reactphp/reactphp"
   },
+  "autoload": {
+    "psr-4": {
+      "Ratchet\\": "src/Ratchet"
+    }
+  },
   "repositories": [
     {
       "type": "vcs",
       "url": "https://github.com/3kbest/RFC6455.git"
     }
   ],
-  "autoload": {
-    "psr-4": {
-      "Ratchet\\": "src/Ratchet"
-    }
-  },
   "require": {
     "php": ">=8.0",
     "3kbest/rfc6455": "^0.3",
